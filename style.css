@@ -5,7 +5,9 @@ a {
 
 /*Utils*/
 
-
+img {
+    max-width: 100%;
+}
 
 /*HEADER*/
 .header-top {
