@@ -9,6 +9,10 @@ img {
 
 /*Utils*/
 
+.size-sm {
+    max-width: 200px;
+}
+
 
 /*HEADER*/
 .header-top {
@@ -77,4 +81,13 @@ img {
 }
 
 
-/*Main*/
+/*Main-PlayStation Plus*/
+
+.ps-plus,
+.ps-now {
+    min-height: 500px;
+}
+
+.ps-now {
+    background-color: #161C3A;
+}
