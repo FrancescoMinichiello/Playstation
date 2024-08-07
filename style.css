@@ -66,3 +66,12 @@ img {
     position: absolute;
     bottom: 0;
 }
+
+figure img {
+    width: 200px;
+}
+
+figure .col:hover {
+    border-bottom: 2px solid #3F95DA;
+    scale: 1.1;
+}
