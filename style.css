@@ -7,11 +7,24 @@ img {
     max-width: 100%;
 }
 
-/*Utils*/
+li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+/*Utils-img*/
+.size-md {
+    max-width: 300px;
+}
 
 .size-sm {
     max-width: 200px;
 }
+
+.size-xs {
+    max-width: 150px;
+}
+
 
 
 /*HEADER*/
@@ -42,7 +55,6 @@ img {
 
 /*Buttons*/
 .login-btn {
-    color: white;
     background-color: #363636;
     padding: 8px 15px;
     border-radius: 30px;
@@ -51,6 +63,20 @@ img {
 
 .download-button {
     background-color: #CD3D0F;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.ps-now-btn {
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.ps-plus-btn {
+    background-color: rgba(255, 255, 255, 0.589);
     padding: 8px 15px;
     border-radius: 30px;
     font-weight: 600;
@@ -80,14 +106,28 @@ img {
     background-image: url('img/it-takes-two-hero-banner-desktop.jpg');
 }
 
+/*PlayStation Plus*/
 
-/*Main-PlayStation Plus*/
-
-.ps-plus,
-.ps-now {
-    min-height: 500px;
+.ps-plus {
+    background-color: #BEBCBB;
 }
+
+/*PlayStation Now*/
 
 .ps-now {
     background-color: #161C3A;
+}
+
+/*Footer*/
+
+footer {
+    background-color: #00439C;
+}
+
+#logo-footer {
+    width: 100px;
+}
+
+#info {
+    text-decoration: underline;
 }
